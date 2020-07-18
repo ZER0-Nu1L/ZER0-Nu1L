@@ -27,5 +27,5 @@ if __name__ == "__main__":
 	    )
 
 	with open(readme, 'w') as f:
-		f.write('## Recent releases\n\n')
+		f.write('## Recent article\n\n')
 		f.write(entries_md)
