@@ -21,11 +21,12 @@ if __name__ == "__main__":
 	readme = root / "README.md"
 	readme_contents = readme.open().read()
     
-	entries = fetch_blog_entries()[:5]
-	entries_md = "\n".join(
-	        ["* [{title}]({url}) - {published}".format(**entry) for entry in entries]
-	    )
+    # Blog 正式停更（其实停更很久了）
+	# entries = fetch_blog_entries()[:5]
+	# entries_md = "\n".join(
+	#         ["* [{title}]({url}) - {published}".format(**entry) for entry in entries]
+	#     )
 
 	with open(readme, 'w') as f:
-		f.write('## Recent article\n\n')
-		f.write(entries_md)
+		f.write('\nI will formally introduce myself one day.\n')
+		# f.write(entries_md)
