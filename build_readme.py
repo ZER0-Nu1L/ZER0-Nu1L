@@ -28,5 +28,5 @@ if __name__ == "__main__":
 	#     )
 
 	with open(readme, 'w') as f:
-		f.write('\nI will formally introduce myself one day.\n')
+		f.write('One day I will formally introduce myself.')
 		# f.write(entries_md)
